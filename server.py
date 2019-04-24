@@ -6,7 +6,7 @@ import os
 import time
 import sys
 from colorama import Fore,Back,init
-
+os.system("clear")
 print(Fore.GREEN+rban.ban())
 print(Fore.RED+"Author : 3P1C\t\tTester : A1C3VENOM")
 print(Fore.BLUE+"Version : e1.0\t\tRShell")
