@@ -8,7 +8,7 @@ import sys
 from colorama import Fore,Back,init
 os.system("clear")
 print(Fore.GREEN+rban.ban())
-print(Fore.RED+"Author : 3P1C\t\tTester : A1C3VENOM")
+print(Fore.RED+"Author : 3P1C\t\tTester : Mr. Malware")
 print(Fore.BLUE+"Version : e1.0\t\tRShell")
 print(Fore.CYAN+"---------------+ Reverse Shell +---------------\n")
 ip = input(Fore.GREEN+"[i] Enter Your Localhost Address :> ")
