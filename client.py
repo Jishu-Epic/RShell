@@ -16,7 +16,7 @@ from colorama import Back,Fore,init
 os.system('clear')
 
 print(Fore.GREEN+rban.ban())
-print(Fore.RED+"Author : 3P1C\t\tTester : A1C3VENOM")
+print(Fore.RED+"Author : 3P1C\t\tTester : Mr. Malware")
 print(Fore.BLUE+"Version : e1.0\t\tRShell")
 print(Fore.CYAN+"---------------+ Reverse Shell +---------------\n")
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
